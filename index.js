@@ -62,5 +62,6 @@ inquirer.prompt([{
 - ${github}
 - ${email}
     `
+    
     fs.writeFile('README.md',readme,(err)=>err?console.error(err):console.log('SUCCESS! Readme file created.'))
 })
